@@ -4,6 +4,7 @@ const io = require("socket.io")(process.env.PORT || 8080, {
   },
 });
 
+// User
 let users = [];
 
 //Function to add user to users array
